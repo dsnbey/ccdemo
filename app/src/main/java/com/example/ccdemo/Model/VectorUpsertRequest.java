@@ -1,6 +1,5 @@
 package com.example.ccdemo.Model;
 
-import com.example.catastrophecompass.RemoteDataRepository.VectorDatabaseRepo.VectorModels.Vector;
 import com.google.gson.annotations.SerializedName;
 
 import java.util.List;

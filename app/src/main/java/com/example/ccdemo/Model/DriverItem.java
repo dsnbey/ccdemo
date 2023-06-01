@@ -1,5 +1,7 @@
 package com.example.ccdemo.Model;
 
+import com.example.ccdemo.Member;
+
 public class DriverItem extends Member {
 
     private String driverName, driverStatus,driverSize;

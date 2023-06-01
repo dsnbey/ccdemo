@@ -3,9 +3,9 @@ package com.example.ccdemo.FieldOrganizer;
 import android.util.Log;
 
 
-import com.example.catastrophecompass.UILayer.FieldOrganizer.DemographicInterface;
-import com.example.catastrophecompass.UILayer.FieldOrganizer.HousingInterface;
+import com.example.ccdemo.DemographicInterface;
 import com.example.ccdemo.FBRepos.FieldOrganizatonInfoFBRepo;
+import com.example.ccdemo.HousingInterface;
 import com.example.ccdemo.LocalRepos.FieldOrganizationInfoLocalRepo;
 import com.example.ccdemo.Model.DemographicInfo;
 import com.example.ccdemo.Model.HousingInfo;
@@ -111,7 +111,7 @@ public class FieldOrganizationDomain {
                     @Override
                     public void onNext(InventoryList inventoryList) {
                         FieldOrganizerCommon.arrivingInfo = inventoryList;
-                        arrivingInterface.setDisplay(inventoryList);
+                        arrivingInterface.setArrivingDisplay(inventoryList);
                         Log.d("FieldOrganizationDomain", "getArrivingInfo() onNext() called");
                     }
 
