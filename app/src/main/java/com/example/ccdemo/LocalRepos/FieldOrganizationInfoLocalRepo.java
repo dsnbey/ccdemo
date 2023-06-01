@@ -3,11 +3,6 @@ package com.example.ccdemo.LocalRepos;
 import android.annotation.SuppressLint;
 import android.util.Log;
 
-import com.example.catastrophecompass.DataLayer.Dao.FieldOrganizationDao;
-import com.example.catastrophecompass.DataLayer.LocalDB;
-import com.example.catastrophecompass.DataLayer.Model.DemographicInfo;
-import com.example.catastrophecompass.DataLayer.Model.HousingInfo;
-import com.example.catastrophecompass.DataLayer.Model.InventoryList;
 import com.example.ccdemo.LocalDBDaos.FieldOrganizationDao;
 import com.example.ccdemo.LocalDBDaos.LocalDB;
 import com.example.ccdemo.Model.DemographicInfo;

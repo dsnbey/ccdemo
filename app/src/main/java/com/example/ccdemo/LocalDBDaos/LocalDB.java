@@ -26,6 +26,8 @@ public abstract class LocalDB extends RoomDatabase {
 
     public abstract CurrentUserDao currentUserDao();
 
+    public abstract FieldOrganizationDao fieldOrganizationDao();
+
 
     @Module
     @InstallIn(SingletonComponent.class)

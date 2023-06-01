@@ -2,18 +2,16 @@ package com.example.ccdemo.FieldOrganizer;
 
 import android.util.Log;
 
-import com.example.catastrophecompass.DataLayer.FBRepository.FieldOrganizatonInfoFBRepo;
-import com.example.catastrophecompass.DataLayer.LocalRepository.FieldOrganizationInfoLocalRepo;
-import com.example.catastrophecompass.DataLayer.Model.DemographicInfo;
-import com.example.catastrophecompass.DataLayer.Model.HousingInfo;
-import com.example.catastrophecompass.DataLayer.Model.InventoryList;
-import com.example.catastrophecompass.DataLayer.Model.User;
-import com.example.catastrophecompass.DomainLayer.Common.FieldOrganizerCommon;
-import com.example.catastrophecompass.RemoteDataRepository.VectorDatabaseRepo.VectorDatabaseRepo;
-import com.example.catastrophecompass.UILayer.FieldOrganizer.ArrivingInterface;
+
 import com.example.catastrophecompass.UILayer.FieldOrganizer.DemographicInterface;
 import com.example.catastrophecompass.UILayer.FieldOrganizer.HousingInterface;
-import com.example.catastrophecompass.UILayer.FieldOrganizer.InventoryInterface;
+import com.example.ccdemo.FBRepos.FieldOrganizatonInfoFBRepo;
+import com.example.ccdemo.LocalRepos.FieldOrganizationInfoLocalRepo;
+import com.example.ccdemo.Model.DemographicInfo;
+import com.example.ccdemo.Model.HousingInfo;
+import com.example.ccdemo.Model.InventoryList;
+import com.example.ccdemo.Model.User;
+import com.example.ccdemo.VectorDatabaseRepo;
 
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers;
 import io.reactivex.rxjava3.schedulers.Schedulers;

@@ -2,11 +2,6 @@ package com.example.ccdemo.FBRepos;
 
 import androidx.annotation.NonNull;
 
-import com.example.catastrophecompass.DataLayer.LocalRepository.FieldOrganizationInfoLocalRepo;
-import com.example.catastrophecompass.DataLayer.Model.DemographicInfo;
-import com.example.catastrophecompass.DataLayer.Model.HousingInfo;
-import com.example.catastrophecompass.DataLayer.Model.InventoryList;
-import com.example.catastrophecompass.DataLayer.Model.User;
 import com.example.ccdemo.LocalRepos.FieldOrganizationInfoLocalRepo;
 import com.example.ccdemo.Model.DemographicInfo;
 import com.example.ccdemo.Model.HousingInfo;

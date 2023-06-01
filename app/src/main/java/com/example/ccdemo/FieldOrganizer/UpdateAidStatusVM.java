@@ -3,8 +3,6 @@ import android.util.Log;
 
 import androidx.lifecycle.ViewModel;
 
-import com.example.catastrophecompass.DataLayer.Model.InventoryList;
-import com.example.catastrophecompass.DomainLayer.Domain.FieldOrganizationDomain;
 import com.example.ccdemo.Model.InventoryList;
 
 import javax.inject.Inject;

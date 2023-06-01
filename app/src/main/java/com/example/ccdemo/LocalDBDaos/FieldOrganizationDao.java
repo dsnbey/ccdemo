@@ -1,13 +1,10 @@
-package com.example.ccdemo.LocalDBDaos.;
+package com.example.ccdemo.LocalDBDaos;
 
 import androidx.room.Dao;
 import androidx.room.Insert;
 import androidx.room.OnConflictStrategy;
 import androidx.room.Query;
 
-import com.example.catastrophecompass.DataLayer.Model.DemographicInfo;
-import com.example.catastrophecompass.DataLayer.Model.HousingInfo;
-import com.example.catastrophecompass.DataLayer.Model.InventoryList;
 import com.example.ccdemo.Model.DemographicInfo;
 import com.example.ccdemo.Model.HousingInfo;
 import com.example.ccdemo.Model.InventoryList;
