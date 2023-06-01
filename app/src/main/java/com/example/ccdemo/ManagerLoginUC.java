@@ -1,5 +1,20 @@
 package com.example.ccdemo;
 
+import android.util.Log;
+
+import com.example.ccdemo.LocalDBDaos.CurrentUserDao;
+import com.example.ccdemo.LocalDBDaos.LocalDB;
+import com.example.ccdemo.Model.User;
+import com.example.ccdemo.Model.UserLogin;
+
+import java.util.concurrent.ExecutionException;
+
+import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers;
+import io.reactivex.rxjava3.annotations.NonNull;
+import io.reactivex.rxjava3.core.CompletableObserver;
+import io.reactivex.rxjava3.disposables.Disposable;
+import io.reactivex.rxjava3.schedulers.Schedulers;
+
 public class ManagerLoginUC {
     private ManagerLoginFBRepo FBRepo;
     private CurrentUserDao currentUserDao;

@@ -1,8 +1,8 @@
 package com.example.ccdemo;
 
 
-import com.example.catastrophecompass.DataLayer.Model.User;
-import com.example.catastrophecompass.DataLayer.Model.UserLogin;
+import com.example.ccdemo.Model.User;
+import com.example.ccdemo.Model.UserLogin;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;

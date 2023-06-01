@@ -14,6 +14,9 @@ import android.widget.Toast;
 
 import com.example.ccdemo.Model.UserLogin;
 
+import dagger.hilt.android.AndroidEntryPoint;
+
+@AndroidEntryPoint
 public class ManagerLoginActivity extends AppCompatActivity {
 
     private ManagerLoginVM viewModel;
