@@ -1,8 +1,23 @@
 package com.example.ccdemo;
 
+import com.example.ccdemo.Model.DemographicInfo;
+import com.example.ccdemo.Model.DriverItem;
+import com.example.ccdemo.Model.FieldOrganization;
+import com.example.ccdemo.Model.InventoryList;
+import com.example.ccdemo.Model.LogisticInfo;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+
 import java.util.ArrayList;
 
 import javax.inject.Inject;
+
+import io.reactivex.rxjava3.annotations.NonNull;
 
 public class OrganizeTrucksFBRepo {
     private VectorDatabaseRepo vectorRepo;

@@ -4,6 +4,7 @@ import android.annotation.SuppressLint;
 import android.util.Log;
 
 import com.example.ccdemo.Model.DemographicInfo;
+import com.example.ccdemo.Model.FieldOrganization;
 import com.example.ccdemo.Model.InventoryList;
 import com.example.ccdemo.Model.LogisticInfo;
 import com.example.ccdemo.Model.PineconeUpsertFailedResponse;
