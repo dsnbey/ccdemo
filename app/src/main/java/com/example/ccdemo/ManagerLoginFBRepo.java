@@ -21,6 +21,9 @@ public class ManagerLoginFBRepo {
     private static DatabaseReference databaseRef = FirebaseDatabase.getInstance().getReference().child("UserList");
     int id;
 
+    public ManagerLoginFBRepo() {
+    }
+
     public User validateLogin(UserLogin userLogin) throws ExecutionException, InterruptedException {
         ArrayList<User>[] users = new ArrayList[1];
 
