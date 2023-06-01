@@ -1,6 +1,6 @@
 package com.example.ccdemo.Model;
 
-import com.example.ccdemo.Member;
+import com.example.ccdemo.Model.Member;
 
 public class DriverItem extends Member {
 

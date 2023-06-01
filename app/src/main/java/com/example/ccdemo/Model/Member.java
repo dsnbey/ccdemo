@@ -1,4 +1,4 @@
-package com.example.ccdemo;
+package com.example.ccdemo.Model;
 
 public class Member {
 
