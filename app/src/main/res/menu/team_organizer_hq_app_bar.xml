@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/fived_bar_job_icon"
+        android:icon="@drawable/job_info"
+        android:title="Info" />
+    <item
+        android:id="@+id/fived_bar_area_icon"
+        android:icon="@drawable/area_icon"
+        android:title="Item 2" />
+    <item
+        android:id="@+id/fived_bar_fived_icon"
+        android:icon="@drawable/truck"
+        android:title="Item 5" />
+    <item
+        android:id="@+id/fived_bar_chat_icon"
+        android:icon="@drawable/chat_icon"
+        android:title="Item 3" />
+    <item
+        android:id="@+id/fived_bar_people_icon"
+        android:icon="@drawable/people_icon"
+        android:title="Item 4" />
+</menu>

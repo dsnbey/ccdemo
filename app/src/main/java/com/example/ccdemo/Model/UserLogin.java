@@ -1,12 +1,14 @@
 package com.example.ccdemo.Model;
 
 
+import androidx.annotation.NonNull;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
 @Entity
 public class UserLogin {
 
+    @NonNull
     @PrimaryKey
     private String userName;
     private String password;

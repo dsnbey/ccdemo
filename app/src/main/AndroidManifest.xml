@@ -16,13 +16,13 @@
             android:name=".ManagerLoginActivity"
             android:exported="false" />
         <activity
-            android:name=".FieldOrganizer.AidStatusActivity"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".FieldOrganizer.UpdateAidStatusActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".FieldOrganizer.AidStatusActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
