@@ -35,7 +35,7 @@ public class OrganizeTrucksActivity extends AppCompatActivity implements Organiz
         vm = new ViewModelProvider(this).get(OrganizeTrucksVM.class);
         vm.getAvailableDrivers(this, HQOrganizerCommon.organizationName);
         // TODO common
-        recyclerView = findViewById(R.id.rec_organize_truck_act);
+        recyclerView = findViewById(R.id.rec_organize_truck);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         truckList = new ArrayList<>();
         truckAdapter = new TruckAdapter(this, truckList, this);

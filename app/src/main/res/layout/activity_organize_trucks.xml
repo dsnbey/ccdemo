@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/hq_organize_truck_fragment"
+    tools:context=".OrganizeTrucksActivity">
+
+    <TextView
+        android:id="@+id/txt_Organize_Truck_Title_hq_fr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Organize Trucks"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:padding="10dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rec_organize_truck"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="484dp"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt_Organize_Truck_Title_hq_fr" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
