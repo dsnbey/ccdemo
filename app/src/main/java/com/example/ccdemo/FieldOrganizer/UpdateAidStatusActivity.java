@@ -10,14 +10,16 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.catastrophecompass.DataLayer.Model.InventoryList;
-import com.example.catastrophecompass.DataLayer.Model.NeedItem;
-import com.example.catastrophecompass.DomainLayer.Common.FieldOrganizerCommon;
-import com.example.catastrophecompass.R;
+import com.example.ccdemo.Model.InventoryList;
+import com.example.ccdemo.Model.NeedItem;
+import com.example.ccdemo.R;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import dagger.hilt.android.AndroidEntryPoint;
+
+@AndroidEntryPoint
 public class UpdateAidStatusActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
     private NeedItemAdapter2 adapter;

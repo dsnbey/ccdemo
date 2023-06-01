@@ -1,6 +1,6 @@
 package com.example.ccdemo.FieldOrganizer;
 
-import com.example.catastrophecompass.DataLayer.Model.InventoryList;
+import com.example.ccdemo.Model.InventoryList;
 
 public interface InventoryInterface {
     void setDisplay(InventoryList inventoryList);

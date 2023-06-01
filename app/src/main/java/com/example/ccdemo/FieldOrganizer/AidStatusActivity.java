@@ -6,8 +6,11 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentTransaction;
 
-import com.example.catastrophecompass.R;
+import com.example.ccdemo.R;
 
+import dagger.hilt.android.AndroidEntryPoint;
+
+@AndroidEntryPoint
 public class AidStatusActivity extends AppCompatActivity {
 
     @Override

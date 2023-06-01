@@ -1,4 +1,4 @@
-package com.example.catastrophecompass.DataLayer.Model;
+package com.example.ccdemo.Model;
 
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;

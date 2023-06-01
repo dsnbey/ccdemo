@@ -1,4 +1,4 @@
-package com.example.catastrophecompass.DataLayer.Model;
+package com.example.ccdemo.Model;
 
 public class NeedItem {
     private String typeOfNeed;

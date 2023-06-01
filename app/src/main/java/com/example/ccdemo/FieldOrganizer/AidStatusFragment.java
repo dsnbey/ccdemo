@@ -8,10 +8,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.catastrophecompass.DataLayer.Model.InventoryList;
-import com.example.catastrophecompass.DomainLayer.Common.FieldOrganizerCommon;
-import com.example.catastrophecompass.R;
-
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -22,6 +18,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import com.example.ccdemo.Model.InventoryList;
+import com.example.ccdemo.R;
 import com.github.mikephil.charting.charts.BarChart;
 import com.github.mikephil.charting.charts.PieChart;
 import com.github.mikephil.charting.components.YAxis;
@@ -80,6 +78,9 @@ import androidx.fragment.app.Fragment;
 import com.github.mikephil.charting.charts.HorizontalBarChart;
 import com.github.mikephil.charting.formatter.IndexAxisValueFormatter;
 
+import dagger.hilt.android.AndroidEntryPoint;
+
+@AndroidEntryPoint
 public class AidStatusFragment extends Fragment implements InventoryInterface {
 
     private HorizontalBarChart aidStatsChart;

@@ -4,7 +4,6 @@ import android.util.Log;
 
 import androidx.lifecycle.ViewModel;
 
-import com.example.catastrophecompass.DomainLayer.Domain.FieldOrganizationDomain;
 
 import javax.inject.Inject;
 

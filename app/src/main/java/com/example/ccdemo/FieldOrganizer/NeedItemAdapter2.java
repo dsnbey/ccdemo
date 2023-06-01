@@ -9,12 +9,12 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.catastrophecompass.DataLayer.Model.NeedItem;
-import com.example.catastrophecompass.R;
+import com.example.ccdemo.Model.NeedItem;
+import com.example.ccdemo.R;
 
 import java.util.List;
 
-public class NeedItemAdapter2 extends RecyclerView.Adapter<com.example.catastrophecompass.UILayer.FieldOrganizer.NeedItemAdapter2.NeedItemViewHolder> {
+public class NeedItemAdapter2 extends RecyclerView.Adapter<NeedItemAdapter2.NeedItemViewHolder> {
 
     private List<NeedItem> needItems;
 
@@ -24,13 +24,13 @@ public class NeedItemAdapter2 extends RecyclerView.Adapter<com.example.catastrop
 
     @NonNull
     @Override
-    public com.example.catastrophecompass.UILayer.FieldOrganizer.NeedItemAdapter2.NeedItemViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public NeedItemAdapter2.NeedItemViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.update_aid_item, parent, false);
-        return new com.example.catastrophecompass.UILayer.FieldOrganizer.NeedItemAdapter2.NeedItemViewHolder(view);
+        return new NeedItemAdapter2.NeedItemViewHolder(view);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull com.example.catastrophecompass.UILayer.FieldOrganizer.NeedItemAdapter2.NeedItemViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull NeedItemAdapter2.NeedItemViewHolder holder, int position) {
         NeedItem needItem = needItems.get(position);
         holder.typeOfNeed.setText(needItem.getTypeOfNeed());
         holder.urgency.setText(needItem.getUrgency());
