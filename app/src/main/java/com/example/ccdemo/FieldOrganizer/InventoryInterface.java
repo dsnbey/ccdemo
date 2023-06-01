@@ -1,4 +1,4 @@
-package com.example.catastrophecompass.UILayer.FieldOrganizer;
+package com.example.ccdemo.FieldOrganizer;
 
 import com.example.catastrophecompass.DataLayer.Model.InventoryList;
 

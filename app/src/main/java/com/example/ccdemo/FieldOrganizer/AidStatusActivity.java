@@ -1,5 +1,4 @@
-package com.example.catastrophecompass.UILayer.FieldOrganizer;
-
+package com.example.ccdemo.FieldOrganizer;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;

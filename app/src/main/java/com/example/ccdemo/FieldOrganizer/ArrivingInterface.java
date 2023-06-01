@@ -1,9 +1,9 @@
-package com.example.catastrophecompass.UILayer.FieldOrganizer;
+package com.example.ccdemo.FieldOrganizer;
 
-import com.example.catastrophecompass.DataLayer.Model.InventoryList;
+
 
 public interface ArrivingInterface {
-    void setArrivingDisplay(InventoryList inventoryList);
+    //void setArrivingDisplay(InventoryList inventoryList);
 
     void warnUser();
 }

@@ -1,4 +1,4 @@
-package com.example.catastrophecompass.UILayer.FieldOrganizer;
+package com.example.ccdemo.FieldOrganizer;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.ViewModelProvider;

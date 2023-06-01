@@ -1,5 +1,4 @@
-package com.example.catastrophecompass.UILayer.FieldOrganizer;
-
+package com.example.ccdemo.FieldOrganizer;
 
 import android.graphics.Color;
 import android.os.Bundle;
@@ -13,8 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.catastrophecompass.DataLayer.Model.InventoryList;
-import com.example.catastrophecompass.R;
+import com.example.ccdemo.R;
 import com.github.mikephil.charting.charts.BarChart;
 import com.github.mikephil.charting.components.XAxis;
 import com.github.mikephil.charting.components.YAxis;
